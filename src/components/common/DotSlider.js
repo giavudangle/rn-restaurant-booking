@@ -1,9 +1,14 @@
 import React from 'react'
 import { View, Text ,StyleSheet} from 'react-native'
+import { TouchableOpacity } from 'react-native-gesture-handler'
 
-export default function DotSlider({isActive}) {
+export default function DotSlider({isActive,func}) {
   return (
+    <TouchableOpacity onPress={func}>
     <View style={isActive? styles.dotContainerActive : styles.dotContainerInActive}></View>
+
+
+    </TouchableOpacity>
       
     
   )

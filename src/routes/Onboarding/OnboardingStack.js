@@ -14,10 +14,10 @@ const OnboardingStack = () => {
   return(
     <Stack.Navigator initialRouteName="BrowserFood">
       <Stack.Screen options={{headerShown:false}} component={BrowserFood} name="BrowserFood"/>
-      <Stack.Screen component={ApplePay} name="ApplePay"/>
-      <Stack.Screen component={MakeReservation} name="MakeReservation"/>
-      <Stack.Screen component={OrderFood} name="OrderFood"/>
-      <Stack.Screen component={QuickSearch} name="QuickSearch"/>
+      <Stack.Screen options={{headerShown:false}} component={ApplePay} name="ApplePay"/>
+      <Stack.Screen options={{headerShown:false}} component={MakeReservation} name="MakeReservation"/>
+      <Stack.Screen options={{headerShown:false}} component={OrderFood} name="OrderFood"/>
+      <Stack.Screen options={{headerShown:false}} component={QuickSearch} name="QuickSearch"/>
     </Stack.Navigator>
   )
 }

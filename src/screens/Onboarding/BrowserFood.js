@@ -3,26 +3,33 @@ import { View, Text,StyleSheet,Image } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import DotSlider from '../../components/common/DotSlider'
 
-export default function BrowserFood() {
-  return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.imageContainer}>
-        <Image source={require('../../images/restaurant_menu_ic.png')} style={styles.image}/>
-      </View>
-      <View style={styles.contentContainer}>
-        <Text style={styles.title}>Browser Food</Text>
-        <Text numberOfLines={1} style={styles.content}>Welcome to our restaurant app! 
-        </Text>
-      </View>
-      <View style={styles.sliderContainer}>
-        <DotSlider isActive={true}/>
-        <DotSlider isActive={false}/>
-        <DotSlider isActive={false}/>
-        <DotSlider isActive={false}/>
-        <DotSlider isActive={false}/>
-      </View>
+import GestureRecognizer,{swipeDirections} from 'react-native-swipe-gestures';
 
-    </SafeAreaView>
+
+
+export default function BrowserFood({navigation}) {
+  return (
+   
+      <GestureRecognizer 
+      onSwipeLeft={() => navigation.navigate('OrderFood')}
+      style={styles.container}>
+        <View style={styles.imageContainer}>
+          <Image source={require('../../images/restaurant_menu_ic.png')} style={styles.image}/>
+        </View>
+        <View style={styles.contentContainer}>
+          <Text style={styles.title}>Browser Food</Text>
+          <Text numberOfLines={1} style={styles.content}>Welcome to our restaurant app! 
+          </Text>
+        </View>
+        <View style={styles.sliderContainer}>
+          <DotSlider isActive={true}/>
+          <DotSlider isActive={false}/>
+          <DotSlider isActive={false}/>
+          <DotSlider isActive={false}/>
+          <DotSlider isActive={false}/>
+        </View>
+        </GestureRecognizer>
+   
   )
 }
 
@@ -40,8 +47,8 @@ const styles = StyleSheet.create({
 
   },
   image:{
-    width:100,
-    height:100
+    width:120,
+    height:100,
   },
   contentContainer:{
     flex:3/10,
