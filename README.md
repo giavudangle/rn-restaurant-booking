@@ -15,7 +15,6 @@
   <img src="https://res.cloudinary.com/chemthan2202/image/upload/v1608009344/small_Screen_Shot_2020_12_15_at_12_11_24_PM_1ced72fed0.png?22205.23999999932"/>
   <img src="https://res.cloudinary.com/chemthan2202/image/upload/v1608009343/small_Screen_Shot_2020_12_15_at_12_12_06_PM_bf360483ef.png?22205.965000001015"/>
   <img src="https://res.cloudinary.com/chemthan2202/image/upload/v1608009342/small_Screen_Shot_2020_12_15_at_12_11_59_PM_98fe105426.png?22206.435000000056"/>
-  <img src="https://res.cloudinary.com/chemthan2202/image/upload/v1608009342/small_Screen_Shot_2020_12_15_at_12_11_59_PM_98fe105426.png?22206.435000000056"/>
   <img src="https://res.cloudinary.com/chemthan2202/image/upload/v1608009342/small_Screen_Shot_2020_12_15_at_12_12_26_PM_6b9d4844f2.png?22206.884999999602"/>
   <img src="https://res.cloudinary.com/chemthan2202/image/upload/v1608009341/small_Screen_Shot_2020_12_15_at_12_12_51_PM_5bb4fe2626.png?22207.345000000714"/>
   <img src="https://res.cloudinary.com/chemthan2202/image/upload/v1608009341/small_Screen_Shot_2020_12_15_at_12_12_44_PM_6a0a29b1cf.png?22208.010000000286"/>
