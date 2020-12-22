@@ -17,7 +17,7 @@ export default function OvalButton({title,func,style,backgroundColor,textColor})
         style={{ 
           alignSelf:'center',
           fontSize:20,
-          fontWeight:'600',
+          fontWeight:'500',
           textAlign:'center',
           padding:10,
           color:`${textColor}`}}>{title}</Text>

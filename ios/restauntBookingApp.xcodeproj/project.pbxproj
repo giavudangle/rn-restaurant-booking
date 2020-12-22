@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* restauntBookingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* restauntBookingAppTests.m */; };
+		02A6D80865E14CA0880688A1 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3C614992E8A4A7492DA50DD /* Foundation.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2C96F90373167749AD14B23F /* libPods-restauntBookingApp-restauntBookingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD44F1844758D93B9B97DDB /* libPods-restauntBookingApp-restauntBookingAppTests.a */; };
+		1413CD5CB8FA4F6C91F7DDC8 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 246695B82FFC4B69BCBE3131 /* FontAwesome5_Brands.ttf */; };
+		2C1D9A9E91FC4A88877DBC69 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACBD9A7488584E41972FC817 /* SimpleLineIcons.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* restauntBookingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* restauntBookingAppTests.m */; };
-		576755E046031679265400EA /* libPods-restauntBookingApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F771E93708EB53728C2ECBA2 /* libPods-restauntBookingApp-tvOSTests.a */; };
+		3C9C9ACC6D3A440FA5E1A0D5 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB0361BBDE134EDAA409064D /* MaterialCommunityIcons.ttf */; };
+		482BFDA561AB461693C77EFE /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57E9F8D7CF784DFF8E361E08 /* Ionicons.ttf */; };
+		562491FD5D244AA19299DC3C /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13DC7B20280D486398A6D47C /* FontAwesome5_Regular.ttf */; };
+		77D5C82C0652423E81D89E97 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D93A23E0470475FBF002E35 /* EvilIcons.ttf */; };
+		7C0488AE1F5B4B439140D6D8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4684EB94506E4F52936DE7EE /* Octicons.ttf */; };
+		7D33704C0DAB4246C7D8EB52 /* libPods-restauntBookingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 158355CE23BB23E8B21A4944 /* libPods-restauntBookingApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B620DC5724DC7DD501968C84 /* libPods-restauntBookingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9844B4D58C8F2DD7D675C3B8 /* libPods-restauntBookingApp.a */; };
-		EEF527B0052600233E8CB167 /* libPods-restauntBookingApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC95B3C878437988B53E7725 /* libPods-restauntBookingApp-tvOS.a */; };
+		9D721C200E0B42018B0178E6 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72B41F8766DE4DCC940C3C40 /* Entypo.ttf */; };
+		AA8D1F107F6899A543C482EB /* libPods-restauntBookingApp-restauntBookingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1009653D391A78AAC2C5197E /* libPods-restauntBookingApp-restauntBookingAppTests.a */; };
+		B0BD9B39CE35426FB7E6A388 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AC60DFFB14A4906B72873E8 /* Feather.ttf */; };
+		B1951CEC8115406D906FAEB9 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8F0A84587084C158DD9EC1C /* MaterialIcons.ttf */; };
+		B26AA25D4BB4493DACF20CDA /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71478443B1FA4CA5BCE95956 /* FontAwesome.ttf */; };
+		B661FC8A500048AFBC86D645 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2657328FE00445A4BEE1374A /* FontAwesome5_Solid.ttf */; };
+		D8534FF082CE0C239B3B3CFF /* libPods-restauntBookingApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E8E1D83ADC4266F5E4AAC9 /* libPods-restauntBookingApp-tvOSTests.a */; };
+		E1C6A57B4C5152F7DF4BB8BF /* libPods-restauntBookingApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 531FFD4832A66246E45195CB /* libPods-restauntBookingApp-tvOS.a */; };
+		E75B1E6D1AE443C0B17FC800 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96DF288D98B44FA1BDA80B07 /* AntDesign.ttf */; };
+		EC349267620C4AE697A58065 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961C4C4FC3DF4DFAB5EAF21E /* Fontisto.ttf */; };
+		F9915947ABAD4FF4B03C1CAD /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D482A490D30A4EC08FC7FCD9 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +60,49 @@
 		00E356EE1AD99517003FC87E /* restauntBookingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restauntBookingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* restauntBookingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = restauntBookingAppTests.m; sourceTree = "<group>"; };
+		0D93A23E0470475FBF002E35 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		0E2C87E29BE717B9130ED480 /* Pods-restauntBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp.debug.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp/Pods-restauntBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1009653D391A78AAC2C5197E /* libPods-restauntBookingApp-restauntBookingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restauntBookingApp-restauntBookingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* restauntBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restauntBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = restauntBookingApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = restauntBookingApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = restauntBookingApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = restauntBookingApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = restauntBookingApp/main.m; sourceTree = "<group>"; };
+		13DC7B20280D486398A6D47C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		158355CE23BB23E8B21A4944 /* libPods-restauntBookingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restauntBookingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246695B82FFC4B69BCBE3131 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		2657328FE00445A4BEE1374A /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* restauntBookingApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "restauntBookingApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* restauntBookingApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "restauntBookingApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DD71F4DB39497845636DDC /* Pods-restauntBookingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp.release.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp/Pods-restauntBookingApp.release.xcconfig"; sourceTree = "<group>"; };
 		378DF94D5A5F89BB5552A144 /* Pods-restauntBookingApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp-tvOS/Pods-restauntBookingApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3C965DAC3E42A57A644A2707 /* Pods-restauntBookingApp-restauntBookingApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp-restauntBookingApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp-restauntBookingApp-tvOS/Pods-restauntBookingApp-restauntBookingApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4260F896E276AD806B426DED /* Pods-restauntBookingApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp-tvOSTests/Pods-restauntBookingApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4684EB94506E4F52936DE7EE /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		531FFD4832A66246E45195CB /* libPods-restauntBookingApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restauntBookingApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E9F8D7CF784DFF8E361E08 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		5AC60DFFB14A4906B72873E8 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		645B8A6B796C482FA2F03770 /* Pods-restauntBookingApp-restauntBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp-restauntBookingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp-restauntBookingAppTests/Pods-restauntBookingApp-restauntBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FD44F1844758D93B9B97DDB /* libPods-restauntBookingApp-restauntBookingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restauntBookingApp-restauntBookingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71478443B1FA4CA5BCE95956 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		72B41F8766DE4DCC940C3C40 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = restauntBookingApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		824445D74C254FEFC091B4DE /* Pods-restauntBookingApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp-tvOSTests/Pods-restauntBookingApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9844B4D58C8F2DD7D675C3B8 /* libPods-restauntBookingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restauntBookingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B74AD7F3330130A216BE55 /* Pods-restauntBookingApp-restauntBookingApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp-restauntBookingApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp-restauntBookingApp-tvOS/Pods-restauntBookingApp-restauntBookingApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		961C4C4FC3DF4DFAB5EAF21E /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		96DF288D98B44FA1BDA80B07 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		A84FECB9291FF8591A4C1BF0 /* Pods-restauntBookingApp-restauntBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp-restauntBookingAppTests.release.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp-restauntBookingAppTests/Pods-restauntBookingApp-restauntBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC95B3C878437988B53E7725 /* libPods-restauntBookingApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restauntBookingApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBD9A7488584E41972FC817 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		B8E8E1D83ADC4266F5E4AAC9 /* libPods-restauntBookingApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restauntBookingApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F0A84587084C158DD9EC1C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		BFBFB30885DCFE3170AEE957 /* Pods-restauntBookingApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-restauntBookingApp-tvOS/Pods-restauntBookingApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C3C614992E8A4A7492DA50DD /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		C4C953E5B05628B38729AC26 /* Pods-restauntBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-restauntBookingAppTests/Pods-restauntBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D482A490D30A4EC08FC7FCD9 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		EA5ACB257C3D354970C339B9 /* Pods-restauntBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restauntBookingAppTests.release.xcconfig"; path = "Target Support Files/Pods-restauntBookingAppTests/Pods-restauntBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB0361BBDE134EDAA409064D /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F771E93708EB53728C2ECBA2 /* libPods-restauntBookingApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restauntBookingApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C96F90373167749AD14B23F /* libPods-restauntBookingApp-restauntBookingAppTests.a in Frameworks */,
+				AA8D1F107F6899A543C482EB /* libPods-restauntBookingApp-restauntBookingAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B620DC5724DC7DD501968C84 /* libPods-restauntBookingApp.a in Frameworks */,
+				7D33704C0DAB4246C7D8EB52 /* libPods-restauntBookingApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF527B0052600233E8CB167 /* libPods-restauntBookingApp-tvOS.a in Frameworks */,
+				E1C6A57B4C5152F7DF4BB8BF /* libPods-restauntBookingApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				576755E046031679265400EA /* libPods-restauntBookingApp-tvOSTests.a in Frameworks */,
+				D8534FF082CE0C239B3B3CFF /* libPods-restauntBookingApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +177,36 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				9844B4D58C8F2DD7D675C3B8 /* libPods-restauntBookingApp.a */,
-				7FD44F1844758D93B9B97DDB /* libPods-restauntBookingApp-restauntBookingAppTests.a */,
-				AC95B3C878437988B53E7725 /* libPods-restauntBookingApp-tvOS.a */,
-				F771E93708EB53728C2ECBA2 /* libPods-restauntBookingApp-tvOSTests.a */,
+				158355CE23BB23E8B21A4944 /* libPods-restauntBookingApp.a */,
+				1009653D391A78AAC2C5197E /* libPods-restauntBookingApp-restauntBookingAppTests.a */,
+				531FFD4832A66246E45195CB /* libPods-restauntBookingApp-tvOS.a */,
+				B8E8E1D83ADC4266F5E4AAC9 /* libPods-restauntBookingApp-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70FEE42EB2E840328130F86D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96DF288D98B44FA1BDA80B07 /* AntDesign.ttf */,
+				72B41F8766DE4DCC940C3C40 /* Entypo.ttf */,
+				0D93A23E0470475FBF002E35 /* EvilIcons.ttf */,
+				5AC60DFFB14A4906B72873E8 /* Feather.ttf */,
+				71478443B1FA4CA5BCE95956 /* FontAwesome.ttf */,
+				246695B82FFC4B69BCBE3131 /* FontAwesome5_Brands.ttf */,
+				13DC7B20280D486398A6D47C /* FontAwesome5_Regular.ttf */,
+				2657328FE00445A4BEE1374A /* FontAwesome5_Solid.ttf */,
+				961C4C4FC3DF4DFAB5EAF21E /* Fontisto.ttf */,
+				C3C614992E8A4A7492DA50DD /* Foundation.ttf */,
+				57E9F8D7CF784DFF8E361E08 /* Ionicons.ttf */,
+				EB0361BBDE134EDAA409064D /* MaterialCommunityIcons.ttf */,
+				B8F0A84587084C158DD9EC1C /* MaterialIcons.ttf */,
+				4684EB94506E4F52936DE7EE /* Octicons.ttf */,
+				ACBD9A7488584E41972FC817 /* SimpleLineIcons.ttf */,
+				D482A490D30A4EC08FC7FCD9 /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		80C08105F60C54EAAAB029BC /* Pods */ = {
@@ -160,6 +220,10 @@
 				BFBFB30885DCFE3170AEE957 /* Pods-restauntBookingApp-tvOS.release.xcconfig */,
 				4260F896E276AD806B426DED /* Pods-restauntBookingApp-tvOSTests.debug.xcconfig */,
 				824445D74C254FEFC091B4DE /* Pods-restauntBookingApp-tvOSTests.release.xcconfig */,
+				91B74AD7F3330130A216BE55 /* Pods-restauntBookingApp-restauntBookingApp-tvOS.debug.xcconfig */,
+				3C965DAC3E42A57A644A2707 /* Pods-restauntBookingApp-restauntBookingApp-tvOS.release.xcconfig */,
+				C4C953E5B05628B38729AC26 /* Pods-restauntBookingAppTests.debug.xcconfig */,
+				EA5ACB257C3D354970C339B9 /* Pods-restauntBookingAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -181,6 +245,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				80C08105F60C54EAAAB029BC /* Pods */,
+				70FEE42EB2E840328130F86D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -209,7 +274,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				10F9A2DC510B312D485C7FFF /* [CP] Copy Pods Resources */,
+				4794A44130A22E4A59AE233B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,7 +296,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0EFC958856D7FDDDFFADDCF7 /* [CP] Copy Pods Resources */,
+				9F9CBE37B0B637167A2BCE07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -342,6 +407,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E75B1E6D1AE443C0B17FC800 /* AntDesign.ttf in Resources */,
+				9D721C200E0B42018B0178E6 /* Entypo.ttf in Resources */,
+				77D5C82C0652423E81D89E97 /* EvilIcons.ttf in Resources */,
+				B0BD9B39CE35426FB7E6A388 /* Feather.ttf in Resources */,
+				B26AA25D4BB4493DACF20CDA /* FontAwesome.ttf in Resources */,
+				1413CD5CB8FA4F6C91F7DDC8 /* FontAwesome5_Brands.ttf in Resources */,
+				562491FD5D244AA19299DC3C /* FontAwesome5_Regular.ttf in Resources */,
+				B661FC8A500048AFBC86D645 /* FontAwesome5_Solid.ttf in Resources */,
+				EC349267620C4AE697A58065 /* Fontisto.ttf in Resources */,
+				02A6D80865E14CA0880688A1 /* Foundation.ttf in Resources */,
+				482BFDA561AB461693C77EFE /* Ionicons.ttf in Resources */,
+				3C9C9ACC6D3A440FA5E1A0D5 /* MaterialCommunityIcons.ttf in Resources */,
+				B1951CEC8115406D906FAEB9 /* MaterialIcons.ttf in Resources */,
+				7C0488AE1F5B4B439140D6D8 /* Octicons.ttf in Resources */,
+				2C1D9A9E91FC4A88877DBC69 /* SimpleLineIcons.ttf in Resources */,
+				F9915947ABAD4FF4B03C1CAD /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,57 +458,43 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0EFC958856D7FDDDFFADDCF7 /* [CP] Copy Pods Resources */ = {
+		18CD8243CC4415E04ACDF98D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-restauntBookingApp-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-restauntBookingApp/Pods-restauntBookingApp-resources.sh",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "Bundle React Native Code And Images";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-restauntBookingApp/Pods-restauntBookingApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		10F9A2DC510B312D485C7FFF /* [CP] Copy Pods Resources */ = {
+		4794A44130A22E4A59AE233B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -477,41 +544,55 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-restauntBookingApp-restauntBookingAppTests/Pods-restauntBookingApp-restauntBookingAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		18CD8243CC4415E04ACDF98D /* [CP] Check Pods Manifest.lock */ = {
+		9F9CBE37B0B637167A2BCE07 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-restauntBookingApp/Pods-restauntBookingApp-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-restauntBookingApp-tvOSTests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-restauntBookingApp/Pods-restauntBookingApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
 		DCF53E9DDCDE99D193DE7B4E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
