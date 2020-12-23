@@ -121,12 +121,12 @@ const mockDataScroll = [
 
 
 
-export default function Home() {
+export default function Home({navigation}) {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <View style={styles.headerContainer}>
-          <TouchableOpacity onPress={() => { }}>
+          <TouchableOpacity onPress={() => navigation.openDrawer()}>
             <FeatherIcon name='menu' size={30} color='#4A4A4A' />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => { }}>
