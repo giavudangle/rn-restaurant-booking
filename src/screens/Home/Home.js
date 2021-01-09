@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, SafeAreaView, StyleSheet } from 'react-native'
 import { FlatList, ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import FeatherIcon from 'react-native-vector-icons/Feather';
+import Header from '../../components/common/Header';
 import CategoryRenderItem from '../../components/Home/CategoryRenderItem';
 import ListRenderItem from '../../components/Home/ListRenderItem';
 import ScrollRenderItem from '../../components/Home/ScrollRenderItem';
@@ -126,12 +127,7 @@ export default function Home({navigation}) {
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <View style={styles.headerContainer}>
-          <TouchableOpacity onPress={() => navigation.openDrawer()}>
-            <FeatherIcon name='menu' size={30} color='#4A4A4A' />
-          </TouchableOpacity>
-          <TouchableOpacity onPress={() => { }}>
-            <FeatherIcon name='shopping-cart' size={30} color='#4A4A4A' />
-          </TouchableOpacity>
+         <Header navigation={navigation}/>
         </View>
         <View style={styles.slideShowContainer}>
           <Text style={{ fontFamily: 'Helvetica', fontSize: 18, fontWeight: '600', top: -40 }}>Popular Categories</Text>
