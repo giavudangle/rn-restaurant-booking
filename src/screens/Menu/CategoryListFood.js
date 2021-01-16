@@ -9,7 +9,6 @@ export default function CategoryListFood({foodDetail}) {
       style={{width:180,height:120,opacity:0.5}} 
       source={foodDetail.image_url}/>
       <Text style={{top:-70,left:50,fontSize:20,fontFamily:'Helvetica',color:'white'}}>{foodDetail.name}</Text>
-
     </View>
   )
 }

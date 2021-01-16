@@ -67,46 +67,21 @@ export default function Menu({ navigation }) {
         <Header header='Menu' navigation={navigation} />
       </View>
       <View style={styles.menuContainer}>
-        <View style={styles.rowItem}>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[0]} />
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[1]} />
-          </TouchableOpacity>
-        </View>
-        <View style={styles.rowItem}>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[2]} />
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[3]} />
-          </TouchableOpacity>
-        </View>
-        <View style={styles.rowItem}>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[4]} />
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[5]} />
-          </TouchableOpacity>
-        </View>
-        <View style={styles.rowItem}>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[6]} />
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[7]} />
-          </TouchableOpacity>
-        </View>
-        <View style={styles.rowItem}>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[8]} />
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <CategoryListFood foodDetail={mockMenuCategory[9]} />
-          </TouchableOpacity>
-        </View>
+        {mockMenuCategory.map((item, index) => {
+          return (
+            (index % 2 === 0
+              ? (
+                <View style={styles.rowItem}>
+                  <TouchableOpacity>
+                    <CategoryListFood foodDetail={mockMenuCategory[index]} />
+                  </TouchableOpacity>
+                  <TouchableOpacity>
+                    <CategoryListFood foodDetail={mockMenuCategory[index + 1]} />
+                  </TouchableOpacity>
+                </View>)
+              : null)
+          )
+        })}
       </View>
     </SafeAreaView>
   )
